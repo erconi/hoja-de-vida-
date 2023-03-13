@@ -6,50 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hoja de vida</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <boody>
-    <header>
-        <h2>Nombre:</h2>
-        <h3>Nicolas Arias Gutierrez</h3>
-        <h2>Número:</h2>
-        <h3>3125463844</h3>
-        <h2>Email:</h2>
-        <h3>nicoariguti9@gmail.com</h3>
-        <h2>Ubicación actual:</h2>
-        <h3>Colombia</h3>
-        <p>
-            <a href="https://github.com/erconi">Githun</a>.
-        </p>
-        <p>
-            <a href="https://www.linkedin.com/in/nicolas-arias-601b791a7/">linkedin</a>.
-        </p>
-    </header>
 
-    <main>
+     <div class="info">
+        <p class="tituloseccion">INFORMACION PERSONAL</p>
+        <p class="tituloinfo">nombre y apellido</p>
+        <p class="informacion"> nicolas arias</p><br>
+        <p class="tituloinfo">telefono</p>
+        <p class="informacion">3125463844</p><br>
+        <p class="tituloinfo">email</p>
+        <p class="informacion"> nicoariguti9@gmail.com</p><br>
+        <p class="tituloinfo">ubicacion</p>
+        <p class="informacion">salamina-caldas</p><br>
+        <p class="tituloinfo">Github</p>
+        <p class="informacion"><a href="">https://github.com/erconi</a></p><br>
+        <p class="tituloinfo">linkedin</p>
+        <p class="informacion"><a href="">https://www.linkedin.com/in/nicolas-arias-601b791a7/ </a>
+    </div>
+
+    <div class="info">
+        <p class="tituloseccion">EXPERIENCIA LABORAL</p>
+        <p class="tituloinfo">Disney+</p>
+        <p class="cargo">desarrollador front-end</p>
+        <p class="informacion">06/10/2023 - 15/12/2024 </p><br>
+        <p class="tituloinfo">HBO</p>
+        <p class="cargo">desarrollador full-stack </p>
+        <p class="informacion">01/03/2025 - 01/03/2025</p></p>
+    </div>
+
+    <div class="info">
         <section>
-            <h2>Experiencia laboral</h2>
-            <ul>
-                <li>
-                    <h3>hbo</h3>
-                    <p>Cargo: desarrollador front-end</p>
-                    <p>06/10/2023 - 15/12/2024</p>
-
-                </li>
-
-                <li>
-                    <h3>disney + </h3>
-                    <p>Cargo: desarrollado full-stack</p>
-                    <p>01/03/2025 - 01/03/2025</p>
-
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Habilidades técnicas</h2>
-            <table>
+            <p class="tituloseccion">HABILIDADES TECNICAS</p>
+            <table WIDTH="100%">
                 <thead>
-                    <tr>
+                    <tr class="habilidad">
                         <th>Habilidad</th>
                         <th>Nivel de dominio</th>
                     </tr>
@@ -74,43 +68,43 @@
                 </tbody>
             </table>
         </section>
+
+    </div>
+
+    <div class="info">
         <section>
-            <h2>Intereses</h2>
-            <TABLE BORDER WIDTH="28%">
+            <p class="tituloseccion">INTERESES</p>
+            <TABLE WIDTH="100%">
                 <TR>
                     <TD>1</TD>
-                    <TD>desarrollo de aplicaciones</TD>
-                </TR>
+                    <TD>desarrollo de paginas empresariales</TD>
+                 </TR>
                 <TR>
                     <TD>2</TD>
-                    <TD>desarrollo de base de datos </TD>
-                </TR>
+                 <TD>desarrollo de base de datos para empresas </TD>
+                 </TR>
             </TABLE>
         </section>
-
-        <section>
-            <h2>Contacto</h2>
-            <form action="#">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"></textarea><br><br>
-
-                <button type="submit">Contactar</button>
-            </form>
-        </section>
-
-
-
+    </div>
+    <div class="info">
+    <section>
+        <p class="tituloseccion">CONTACTO</p>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+    
+            <button type="submit">Contactar</button>
+        </form>
+    </section>
+    </div>
+    
+    
+    
     </main>
+</body>
 
-
-
-
-
-
-
-    </body>
 
 </html>
